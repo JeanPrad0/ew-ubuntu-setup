@@ -60,17 +60,20 @@ sudo apt-get install code -y # or code-insiders
 
 echo 'installing extensions'
 code --install-extension dbaeumer.vscode-eslint
-code --install-extension christian-kohler.path-intellisense
-code --install-extension dbaeumer.vscode-eslint
 code --install-extension dracula-theme.theme-dracula
-code --install-extension esbenp.prettier-vscode
 code --install-extension foxundermoon.shell-format
-code --install-extension pmneo.tsimporter
 code --install-extension waderyan.gitblame
 code --install-extension yzhang.markdown-all-in-one
-
-echo 'installing spotify' 
-snap install spotify
+code --install-extension valeryanm.vscode-phpsab
+code --install-extension mehedidracula.php-namespace-resolver
+code --install-extension felixfbecker.php-intellisense
+code --install-extension neilbrayfield.php-docblocker
+code --install-extension junstyle.php-cs-fixer
+code --install-extension ms-azuretools.vscode-docker
+code --install-extension donjayamanne.githistory
+code --install-extension eamodio.gitlens
+code --install-extension abusaidm.html-snippets
+code --install-extension onecentlin.laravel-extension-pack
 
 echo 'installing chrome' 
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
