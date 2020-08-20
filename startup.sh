@@ -1,5 +1,8 @@
 sudo apt-get update
 
+echo 'installing terminator'
+sudo apt install terminator -y
+
 echo 'installing curl' 
 sudo apt install curl -y
 
